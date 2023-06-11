@@ -6,6 +6,6 @@ object CachedUrlsResource {
     ): InputStream? = CachedUrlsResource::class.java.getResourceAsStream(name)
 
     fun getBuiltInAmp2HtmlUrlsJson(
-        name: String = "amp2htmls_urls.json"
+        name: String = "amp2html_urls.json"
     ): InputStream? = CachedUrlsResource::class.java.getResourceAsStream(name)
 }
